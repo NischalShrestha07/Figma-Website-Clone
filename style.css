@@ -76,6 +76,12 @@ ul {
     font-family: 'montserret', sans-serif;
 }
 
+.row li:hover {
+    border-bottom: 5px solid rgb(5, 19, 210);
+    transition: all ease-in-out;
+
+}
+
 .row span {
     border: 2px solid black;
     padding: 15px;
@@ -85,7 +91,12 @@ ul {
     background: blue;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 
+}
+
+.row span:hover {
+    box-shadow: 5px 5px 5px black;
 }
 
 .container1 {
@@ -206,4 +217,120 @@ ul {
     border-radius: 15px;
     background: #000;
     color: white;
+}
+
+.btn:hover {
+    color: black;
+    background: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.1);
+    transition: all ease-in-out;
+}
+
+.ender {
+    padding: 30px;
+    margin: 30px 60px;
+    display: flex;
+    background: rgb(241, 241, 195);
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'montserret', sans-serif;
+}
+
+.icons {
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    font-size: 60px;
+}
+
+.para2 p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.para2 h1 {
+
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+}
+
+.explore h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.resources h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.useCase h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.compare h1 {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+
+}
+
+.icons a {
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+}
+
+.explore li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.resources li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.useCase li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.compare li {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+    margin-top: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    height: -7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+footer span {
+    margin-left: 10vw;
 }
