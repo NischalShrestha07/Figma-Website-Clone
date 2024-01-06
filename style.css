@@ -9,8 +9,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background: grey; */
-
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'montserret', sans-serif;
+    gap: 12px;
 }
 
 .navbar img {
@@ -42,13 +44,15 @@ ul {
     text-decoration: none;
     list-style: none;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     align-items: center;
 
     /* flex-direction: column; */
 }
 
 .row {
+    margin-bottom: -22px;
+    font-size: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,12 +77,13 @@ ul {
 }
 
 .container1 {
-    padding: 50px;
-    height: 60vh;
+    min-height: 60vh;
+    padding: 90px;
+    font-size: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(163, 170, 163);
+    /* background: rgb(163, 170, 163); */
 }
 
 .detail h6 {
@@ -91,4 +96,29 @@ ul {
 
 .detail p {
     margin: 15px;
+}
+
+.mainSlot {
+    min-width: 100vw;
+    margin: 1vw;
+    padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background: grey; */
+}
+
+.firstSlot {
+    display: flex;
+    gap: 25px;
+    padding: 3vw;
+    margin: 10px 21px;
+}
+
+.secondSlot {
+    display: flex;
+    gap: 25px;
+    padding: 3vw;
+    margin: 10px 21px;
 }
