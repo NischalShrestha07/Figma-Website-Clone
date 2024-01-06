@@ -175,3 +175,35 @@ ul {
     box-shadow: 1px 2px 2px black;
 
 }
+
+.section1 {
+    margin-top: 0;
+    background: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 img {
+    height: 70vh;
+}
+
+.para {
+    margin: 150px;
+    font-size: 35px;
+}
+
+.para p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    background: #000;
+    color: white;
+}
